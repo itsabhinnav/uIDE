@@ -1,0 +1,13 @@
+.props-item{
+    display: flex;
+    flex-direction: row;
+}
+.attribute{
+    flex:5;
+    border: 1px solid black;
+}
+.value{
+    flex:5;
+    border: 1px solid black;
+    color: rgb(11, 3, 87);
+}

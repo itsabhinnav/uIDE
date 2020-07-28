@@ -1,0 +1,38 @@
+.app-container{
+    display: flex;
+    flex-direction : row;
+    border: 0px solid rgb(238, 255, 7);
+    height:100%;
+}
+.workspace{
+    flex:8;
+    border: 0px solid red;
+}
+.sidebar{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border : 0px solid mediumseagreen;
+}
+.pallete{
+    flex: 5;
+    border: 0px solid grey;
+}
+.props{
+    flex: 5;
+    border : 0px solid magenta;
+}
+.design{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:784px;
+    background-color: rgb(255, 245, 245);
+}
+.code{
+    display: flex;
+    height: 784px;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+}
